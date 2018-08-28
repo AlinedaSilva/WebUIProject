@@ -1,0 +1,64 @@
+#Container
+{
+	border: 0px; /*Set the border to zero since it is currently at 1 */
+    padding: 0px;
+    width: 100%;
+}
+
+header {
+	
+	border: 0px;
+}
+
+
+
+nav
+{
+	display: none;	
+}
+
+aside 
+{
+	display: none;       
+}
+
+footer
+{
+	 display: none;
+}
+
+header img
+{
+	display: none;
+}
+.jwbpic
+{
+	display: none;
+}
+.zian
+{
+	display: none;
+}
+
+.prc
+{
+	display: none;
+}
+.afm
+{
+	display: none;
+}
+
+.educright
+{
+	display: none;
+}
+
+.educleft
+{
+	display: none;
+}
+.educ
+{
+	background-color: none;
+}

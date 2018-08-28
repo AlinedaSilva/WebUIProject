@@ -1,0 +1,628 @@
+﻿body
+{
+    font-family: Times New Roman, Georgia, Seriff;/*type of font in the full webpage*/
+    font-size: 1em; /*font size of the text if not said in any of the items below*/
+    color: #000000;/*font colour of the text if not said in any of the items below*/
+    background-color: white; /* Page colour white */
+	height: 95%;
+}
+
+h1 /* format of Aline Carmo da Silva */
+{
+	font-size: 3em; /*font size for H1*/
+	border: 1em solid black;/*size of the border, style, border color*/
+	font-weight: bold; /*font style*/
+	padding-top: 0.05em;/*padding on the top of the text*/
+	padding-bottom: 0.05em;/*padding on the bottom of the text*/
+	border-radius: 12px; /*make the corners arround on the border*/
+	text-align: center;/*centralize the text*/
+	padding-right: 50px;/*add space in between the tabs on the right side*/
+	padding-left: 50px;/*add space in between the tabs on the left side*/
+}
+
+h2 /* positions and dates*/
+{
+    font-size: 24 pt; /*font size for H2*/
+	text-align: center; /*centralize the text*/
+	color: #008B8B; /*colour of the text*/
+	font-style: bold;/* font -style of the text*/
+	font-weight: bold;/*font style*/
+	margin-bottom:.25em; /*margin on the bottom of the text*/
+	
+}
+
+h3 
+{
+    font-size: 18px;/*size of the text*/
+	text-align: center;/*align of the text*/
+	color: #191970;/*colour of the text*/
+	font-style: bold;/* font -style of the text*/
+	text-align: center;
+	margin: 0px;
+	padding-left: 12px;	
+	
+}
+	
+h4 /*sections in about me*/
+{
+    font-size: 5px; /*size of the text*/
+   	color: Black; /*colour of the text*/
+	font-style: bold;/* font -style of the text*/
+	text-align: justify;/*align of the text*/
+}
+
+h5
+{
+	font-size: 18px; /*size of the font*/
+    text-align: left; /*align left*/
+	color: #034F84;	/*colour of the text*/ 
+}
+
+h6
+{
+	font-size: 14px;
+	text-align: center;
+	color: #191970;
+}
+
+a 
+{
+	text-decoration: none; /* Remove the underline from links */
+	color: black; /* change the colour, note US spelling and HEX notation */
+	font-weight: bold; /* make the text bold */
+	font-size: 20px; /*text size on the navigator*/	
+	padding-right: 20px;/*add space in between the tabs on the right side*/
+	padding-left: 0px;/*add space in between the tabs on the left side*/
+	margin-left: 12px;
+}
+
+a:focus
+{
+	color: #000000; /* change colour when link gets focus */
+} 
+
+a:hover 
+{
+	color: #006400; /* change colour when pointer moves over hyperlink */
+	
+}
+a:active 
+{
+	color: #ff0000; /* change colour when phyperlink is clicked */
+} 
+
+#Container
+{
+    border: 3px solid black; /*size of the border, style, border color*/
+    background-color: #FFFFFF; /*add space in between the tabs on the left side*/
+    padding: 1em; /*padding arround the container*/
+    width: 95%; /*border width arround the webpage*/
+	border-radius: 12px;/*make the round corners on the border*/	
+	
+}
+
+.heading 
+{
+	color: #333333; /*colour of the font*/
+	border: 3px solid black;/*size, type and colour of the border*/
+	font-weight: bold; /*type of style of font on the heading*/
+	margin-bottom:.25em; /*margin on the bottom arround the border*/
+	margin-top:.25em;
+}
+
+.subHeading
+{
+    color: #000000; /*colour of the text*/
+    font-size: 1 em;/*size of the text*/
+}
+
+.dropbtn 
+{
+    background-color: #000080; /*background of the dropbtn*/	
+    color: black; /*colour of the dropbtn*/	
+    font-size: 20px; /*text size on the dropbtn*/	
+    border: none; /*border of the dropbtn none*/	
+    cursor: pointer;/*type of the cursor*/		
+}
+.dropdown 
+{
+	position: relative;/*position of the dropdown*/
+    display: inline-block;/*inline with the heading with the navigator*/
+}
+.dropdown-content 
+{
+    display: none; /*hide the dropdown*/
+    position: absolute;/*hide the dropdown underneath the tab*/
+    background-color: #000080; /*colour of the background of dropdown */
+    min-width: 300px; /*size of the dropdown content width*/
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2); /* */
+	z-index:1;
+}
+
+.dropdown:hover .dropdown-content 
+{
+    display: block;
+	background-color: #000080;	
+}
+
+.top
+{
+	float: left; /*position of the picture left*/
+    display: block; /*make the block on the navigator*/
+    color: #54504b; /*color of the separator*/
+	text-align: center; /*centratize*/
+    text-decoration: none; /*hide the underline on navigator*/
+	background-color:#0b0b0d; /*colour on the background of the navigator*/
+	padding-top: 10px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	margin-left: 30px;
+	margin-right: 30px;
+	padding-bottom: 10px;
+	clear: both;
+}
+
+.computershop
+{
+	padding-bottom: 0px;
+	padding-top: 0px;
+	margin-bottom: 0px;
+	margin-top:	0px;
+
+	float: left;
+}
+
+.frontleft/*first page picture*/
+{
+	float: left;
+	padding-bottom: 5px;
+	padding-top: 5px;
+	margin-bottom: 10px;
+	margin-top:	10px;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+.frontright/*first page picture*/
+{
+	float: right;
+	padding-bottom: 5px;
+	padding-top: 10px;
+	margin-bottom: 10px;
+	margin-top:	5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+
+div.frontleft:hover /*front picture border*/
+{
+    border: 1px solid #777;
+}
+
+div.frontright:hover /*front picture border*/
+{
+    border: 1px solid #777;
+}
+div.desc 
+{
+    padding: 15px;
+ 	font-size: 30px;/*size of the text*/
+	color: blue;/*colour of the text*/
+	font-style: bold;/* font -style of the text*/
+	text-align: center;	
+}
+
+#tfnewsearch/*search button*/
+{
+	float:right;
+
+}
+.tftextinput2/*search button*/
+{
+	margin: 0;
+	padding: 5px 15px;
+	font-size:14px;
+	color:#666;
+	border:1px solid #0076a3; 
+	border-right:0px;
+	border-top-left-radius: 5px 5px;
+	border-bottom-left-radius: 5px 5px;
+	
+}
+.tfbutton2 /*search button*/
+{
+	margin: 0;
+	padding: 5px 15px;
+	font-size:14px;
+	font-weight:bold;
+	outline: none;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	color: #ffffff;
+	border: solid 1px #0076a3; border-right:0px;
+	background: #0095cd;
+	background: -webkit-gradient(linear, left top, left bottom, from(#00adee), to(#0078a5));
+	background: -moz-linear-gradient(top,  #00adee,  #0078a5);
+	border-top-right-radius: 5px 5px;
+	border-bottom-right-radius: 5px 5px;
+	
+}
+.tfbutton2:hover /*search button*/
+{
+	text-decoration: none;
+	background: #007ead;
+	background: -webkit-gradient(linear, left top, left bottom, from(#0095cc), to(#00678e));
+	background: -moz-linear-gradient(top,  #0095cc,  #00678e);
+}
+/* Fixes submit button height problem in Firefox */
+.tfbutton2::-moz-focus-inner /*search button*/
+{
+	border: 0;
+}
+.tfclear/*search button*/
+{
+	clear:both;
+}
+ 
+/* login form style */
+form 
+{
+    border: 3px solid #f1f1f1;
+}
+
+/* login form style */
+input[type=text], input[type=password]
+{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+
+/* login form style */
+button 
+{
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* login form style */
+button:hover 
+{
+    opacity: 0.8;
+}
+
+/* login form style */
+.cancelbtn 
+{
+    width: auto;
+    padding: 10px 18px;
+    background-color: #f44336;
+}
+
+/* login form style */
+.imgcontainer 
+{
+    text-align: center;
+    margin: 24px 0 12px 0;
+}
+
+/* login form style */
+img.loginpic 
+{
+    width: 20%;
+    border-radius: 50%;
+}
+
+/* login form style */
+.container 
+{
+    padding: 16px;
+}
+
+/* login form style */
+span.psw {
+    float: right;
+    padding-top: 16px;
+}
+/* signup form style */
+.cancelbtn 
+{
+	padding: 14px 20px;
+	background-color:  #44336;
+       
+}
+
+/* signup form */
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn,.signupbtn 
+{
+    float: left;
+    width: 50%;
+}
+
+/* signup form */
+/* Add padding to container elements */
+.container 
+{
+    padding: 16px;
+}
+
+/* signup form */
+/* Clear floats */
+.clearfix::after 
+{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+
+/* payment form*/
+.creditCardForm {
+    max-width: 700px;
+    background-color: #fff;
+    margin: 100px auto;
+    overflow: hidden;
+    padding: 25px;
+    color: #4c4e56;
+}
+/* payment form*/
+.creditCardForm label {
+    width: 100%;
+    margin-bottom: 10px;
+}
+/* payment form*/
+.creditCardForm .heading h1 {
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    color: #4c4e56;
+}
+/* payment form*/
+.creditCardForm .payment {
+    float: left;
+    font-size: 18px;
+    padding: 10px 25px;
+    margin-top: 20px;
+    position: relative;
+}
+/* payment form*/
+.creditCardForm .payment .form-group {
+    float: left;
+    margin-bottom: 15px;
+}
+/* payment form*/
+.creditCardForm .payment .form-control {
+    line-height: 40px;
+    height: auto;
+    padding: 0 16px;
+}
+/* payment form*/
+.creditCardForm .owner {
+    width: 63%;
+    margin-right: 10px;
+}
+/* payment form*/
+.creditCardForm .CVV {
+    width: 35%;
+}
+/* payment form*/
+.creditCardForm #card-number-field {
+    width: 100%;
+}
+/* payment form*/
+.creditCardForm #expiration-date {
+    width: 49%;
+}
+/* payment form*/
+.creditCardForm #credit_cards {
+    width: 50%;
+    margin-top: 25px;
+    text-align: right;
+}
+/* payment form*/
+.creditCardForm #pay-now {
+    width: 100%;
+    margin-top: 25px;
+}
+/* payment form*/
+.creditCardForm .payment .btn {
+    width: 100%;
+    margin-top: 3px;
+    font-size: 24px;
+    background-color: #2ec4a5;
+    color: white;
+}
+/* payment form*/
+.creditCardForm .payment select {
+    padding: 10px;
+    margin-right: 15px;
+}
+/* payment form*/
+.transparent {
+    opacity: 0.2;
+}
+/* payment form*/
+@media(max-width: 650px) {
+    .creditCardForm .owner,
+    .creditCardForm .CVV,
+    .creditCardForm #expiration-date,
+    .creditCardForm #credit_cards {
+        width: 100%;
+    }
+    .creditCardForm #credit_cards {
+        text-align: left;
+    }
+}
+
+
+/* progress bar*/
+.stepwizard-step p 
+{
+    margin-top: 10px;    
+}
+/* progress bar*/
+.stepwizard-row
+ {
+    display: table-row;
+}
+/* progress bar*/
+.stepwizard 
+{
+    display: table;     
+    width: 100%;
+    position: relative;
+}
+/* progress bar*/
+.stepwizard-step button[disabled] 
+{
+    opacity: 1 !important;
+    filter: alpha(opacity=100) !important;
+}
+/* progress bar*/
+.stepwizard-row:before 
+{
+    top: 14px;
+    bottom: 0;
+    position: absolute;
+    content: " ";
+    width: 100%;
+    height: 1px;
+    background-color: #ccc;
+    z-order: 0;
+    
+}
+/* progress bar*/
+.stepwizard-step 
+{    
+    display: table-cell;
+    text-align: center;
+    position: relative;
+}
+/* progress bar*/
+.btn-circle 
+{
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  padding: 6px 0;
+  font-size: 12px;
+  line-height: 1.428571429;
+  border-radius: 15px;
+}
+/* tick picture on thank you page*/
+.transactioncompleted
+{
+	padding-bottom: 0px;
+	padding-top: 0px;
+	margin-bottom: 0px;
+	margin-top:	0px;
+	margin-left: 200px;
+	margin-right: 50px;
+	padding-right: 50px;
+	padding-left: 200px;
+	float: left;
+}
+/* computer shop center image*/
+.centerImage
+{
+	text-align:center;
+	display:block;
+}
+/* product page*/
+
+ul > li{margin-right:25px;font-weight:lighter;cursor:pointer}
+li.active{border-bottom:3px solid silver;}
+
+.item-photo{display:flex;justify-content:center;align-items:center;border-right:1px solid #f6f6f6;}
+.menu-items{list-style-type:none;font-size:11px;display:inline-flex;margin-bottom:0px;margin-top:20px}
+.btn-success{width:100%;border-radius:0px;}
+.section{width:100%;margin-left:-15px;padding:2px;padding-left:15px;padding-right:15px;background:#f8f9f9}
+.title-price{margin-top:30px;margin-bottom:0px;color:black}
+.title-attr{margin-top:0px;margin-bottom:0px;color:black;}
+.btn-minus{cursor:pointer;font-size:7px;display:flex;align-items:center;padding:5px;padding-left:10px;padding-right:10px;border:1px solid gray;border-radius:2px;border-right:0px;}
+.btn-plus{cursor:pointer;font-size:7px;display:flex;align-items:center;padding:5px;padding-left:10px;padding-right:10px;border:1px solid gray;border-radius:2px;border-left:0px;}
+div.section > div {width:100%;display:inline-flex;}
+div.section > div > input {margin:0px;padding-left:5px;font-size:10px;padding-right:5px;max-width:18%;text-align:center;}
+.attr,.attr2{cursor:pointer;margin-right:5px;height:20px;font-size:10px;padding:2px;border:1px solid gray;border-radius:2px;}
+.attr.active,.attr2.active{ border:1px solid orange;}
+@media (max-width: 426px) {
+    .container {margin-top:0px !important;}
+    .container > .row{padding:0px !important;}
+    .container > .row > .col-xs-12.col-sm-5{
+        padding-right:0px ;    
+    }
+    .container > .row > .col-xs-12.col-sm-9 > div > p{
+        padding-left:0px !important;
+        padding-right:0px !important;
+    }
+    .container > .row > .col-xs-12.col-sm-9 > div > ul{
+        padding-left:10px !important;
+        
+    }            
+    .section{max-width:100%}
+    .menu-items{padding-left:0px;}
+}
+
+
+/* tootip format */
+.tooltip {
+    position: relative;
+    display: inline-block;
+    border-bottom: 1px dotted black;
+}
+/* tootip format */
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+}
+/* tootip format */
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+/*address confirm button*/
+.addressbutton 
+{
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+    width: 50%;
+	text-align: center;
+	font-weight: bold;
+}
+
+
+
+footer 
+{
+	clear: both;
+}
+
+  
+  
